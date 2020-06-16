@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="caio.niceroad">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Main"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- <activity android:namMainvity" /> -->
+        <activity
+            android:name=".atividade1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atividade2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atividade3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atividadecogumelo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atividadecomparar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atividadecomparar2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atividadecomparar3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atividadecomparar4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atividadecomparar5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atividadeduracao"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atividadeduracao2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atividadeduracao3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atividadeduracao4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atividadeduracao5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atividadefuturo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atividadefuturo2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atividadefuturo3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atividadefuturo4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atividadefuturo5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atividadelady"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atividademela"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atividademodal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atividademodal2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atividademodal3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atividademodal4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atividademodal5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atividadepassado1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atividadepassado2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atividadepassado3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atividadepassado4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atividadepassado5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atividadepossessiva"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atividadepossessiva2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atividadepossessiva3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atividadepossessiva4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atividadepossessiva5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atividadepresente"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atividadepresente2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atividadepresente3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atividadepresente4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atividadepresente5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atividadetv"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cognato"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cognatoajuda"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cognatoalmoco"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cognatobiblio"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cognatomotel"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dicas1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dicas2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dicas3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dicasambulancia"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dicasbar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dicascorrida"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dicashotel"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dicashotell"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dicasice"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dicasmal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dicasmalas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dicasmapa"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dicasmilk"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dicasquarto"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dicaspressao"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dicasrefri"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dicassaude"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dicastaxi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dicastonto"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dicastransporte"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dicasvalor"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ponto"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pontocentral"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pontodisney"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pontoorlando"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pontotimes"
+            android:screenOrientation="portrait" />
+        <!-- <activity android:name=".SliderAdapter" /> -->
+    </application>
+
+</manifest>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="caio.niceroad.dicassaude">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="507dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:adjustViewBounds="false"
+        android:background="@android:color/background_light"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/dicassaude"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/btnDicas"
+        android:layout_width="141dp"
+        android:layout_height="122dp"
+        android:layout_alignBottom="@+id/textView25"
+        android:layout_alignStart="@+id/btnFazer"
+        android:layout_marginBottom="21dp"
+        android:background="@android:color/transparent"
+        android:text=""
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <Button
+        android:id="@+id/btnPonto"
+        android:layout_width="160dp"
+        android:layout_height="126dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="28dp"
+        android:layout_marginTop="122dp"
+        android:background="@android:color/transparent"
+        android:text=""
+        tools:layout_editor_absoluteX="191dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <Button
+        android:id="@+id/btnFazer"
+        android:layout_width="160dp"
+        android:layout_height="139dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="55dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
+        android:background="@android:color/transparent"
+        android:text=""
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="339dp" />
+
+    <Button
+        android:id="@+id/btnCognato"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_alignStart="@+id/btnPonto"
+        android:layout_alignTop="@+id/btnFazer"
+        android:background="@android:color/transparent"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:fontFamily="@font/avenir"
+        android:text="se sentindo mal"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/textView28"
+        android:fontFamily="@font/avenir"
+        android:text="chamar ambulância"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_centerVertical="true"
+        android:fontFamily="@font/avenir"
+        android:text="atordoado"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="79dp"
+        android:fontFamily="@font/avenir"
+        android:text="pressão baixa"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="79dp"
+        android:fontFamily="@font/avenir"
+        android:text="Dicas Saúde" />
+
+</RelativeLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="caio.niceroad.dicashotel">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="507dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:adjustViewBounds="false"
+        android:background="@android:color/background_light"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/dicashoteel"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/btnDicas"
+        android:layout_width="160dp"
+        android:layout_height="134dp"
+        android:layout_alignBottom="@+id/textView25"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:background="@android:color/transparent"
+        android:text=""
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <Button
+        android:id="@+id/btnPonto"
+        android:layout_width="160dp"
+        android:layout_height="122dp"
+        android:layout_alignTop="@+id/btnDicas"
+        android:layout_toEndOf="@+id/btnFazer"
+        android:background="@android:color/transparent"
+        android:text=""
+        tools:layout_editor_absoluteX="191dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <Button
+        android:id="@+id/btnFazer"
+        android:layout_width="160dp"
+        android:layout_height="151dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="55dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
+        android:background="@android:color/transparent"
+        android:text=""
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="339dp" />
+
+    <Button
+        android:id="@+id/btnCognato"
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:layout_alignStart="@+id/btnPonto"
+        android:layout_alignTop="@+id/btnFazer"
+        android:background="@android:color/transparent"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/btnPonto"
+        android:fontFamily="@font/avenir"
+        android:text="Quarto"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="75dp"
+        android:fontFamily="@font/avenir"
+        android:text="Bar"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView25"
+        android:layout_alignBottom="@+id/textView25"
+        android:layout_alignEnd="@+id/btnPonto"
+        android:layout_marginEnd="-12dp"
+        android:layout_toEndOf="@+id/btnDicas"
+        android:fontFamily="@font/avenir"
+        android:text="Malas"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_alignTop="@+id/textView26"
+        android:fontFamily="@font/avenir"
+        android:text="Taxi"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="79dp"
+        android:fontFamily="@font/avenir"
+        android:text="Dicas Hotel" />
+
+</RelativeLayout>
